@@ -19,6 +19,16 @@
       "id": "3248",
       "name": "spider man",
       "alterEgo": "peter"
+    },
+    {
+      "id": "c9ea",
+      "name": "flash",
+      "alterEgo": "shan"
+    },
+    {
+      "id": "b39b",
+      "name": "hulk",
+      "alterEgo": "green"
     }
   ]
 }

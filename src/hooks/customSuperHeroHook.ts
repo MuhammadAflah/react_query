@@ -22,9 +22,9 @@ export const useSuperHeroData = (onSuccess: any, onError: any) => {
 
     //staleTime: 30000 /*the stale time means when we fetch the data and back to different route and agin back to this route in the networktab we cant see the request but the data is displayed this is by getting the data from cache default stale time is 0 seconds*/,
 
-    //refetchInterval: 2000 /*it helps to refetch the function automatically in every 2 sec. but the refetches is paused when user focused to resolve this issue we can use another option (refetchintervalinbackground:true)*/,
+    refetchInterval: 2000 /*it helps to refetch the function automatically in every 2 sec. but the refetches is paused when user focused to resolve this issue we can use another option (refetchintervalinbackground:true)*/,
 
-    //refetchIntervalInBackground: true,
+    refetchIntervalInBackground: true,
 
     //enabled: false, /*by keeping it as false it does not shows the data on the window */
 
